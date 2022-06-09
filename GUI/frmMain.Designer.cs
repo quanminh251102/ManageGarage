@@ -337,14 +337,14 @@
             // thôngTinTàiKhoảnToolStripMenuItem
             // 
             this.thôngTinTàiKhoảnToolStripMenuItem.Name = "thôngTinTàiKhoảnToolStripMenuItem";
-            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Thông tin tài khoản";
             this.thôngTinTàiKhoảnToolStripMenuItem.Click += new System.EventHandler(this.ThôngTinTàiKhoảnToolStripMenuItem_Click);
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.ĐăngXuấtToolStripMenuItem_Click);
             // 
@@ -476,7 +476,7 @@
             this.panel11.Location = new System.Drawing.Point(0, 311);
             this.panel11.Margin = new System.Windows.Forms.Padding(2);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(497, 49);
+            this.panel11.Size = new System.Drawing.Size(497, 34);
             this.panel11.TabIndex = 9;
             // 
             // btnCapNhatSoLoaiTienCong
@@ -487,7 +487,7 @@
             this.btnCapNhatSoLoaiTienCong.Location = new System.Drawing.Point(369, 2);
             this.btnCapNhatSoLoaiTienCong.Margin = new System.Windows.Forms.Padding(2);
             this.btnCapNhatSoLoaiTienCong.Name = "btnCapNhatSoLoaiTienCong";
-            this.btnCapNhatSoLoaiTienCong.Size = new System.Drawing.Size(124, 45);
+            this.btnCapNhatSoLoaiTienCong.Size = new System.Drawing.Size(124, 24);
             this.btnCapNhatSoLoaiTienCong.TabIndex = 12;
             this.btnCapNhatSoLoaiTienCong.Text = "Cập nhật";
             this.btnCapNhatSoLoaiTienCong.UseVisualStyleBackColor = true;
@@ -498,7 +498,7 @@
             this.lblSoLoaiTienCong.AutoSize = true;
             this.lblSoLoaiTienCong.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblSoLoaiTienCong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.lblSoLoaiTienCong.Location = new System.Drawing.Point(13, 11);
+            this.lblSoLoaiTienCong.Location = new System.Drawing.Point(13, 2);
             this.lblSoLoaiTienCong.Name = "lblSoLoaiTienCong";
             this.lblSoLoaiTienCong.Size = new System.Drawing.Size(112, 19);
             this.lblSoLoaiTienCong.TabIndex = 2;
@@ -507,7 +507,7 @@
             // txtBoxSoLoaiTienCong
             // 
             this.txtBoxSoLoaiTienCong.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxSoLoaiTienCong.Location = new System.Drawing.Point(163, 11);
+            this.txtBoxSoLoaiTienCong.Location = new System.Drawing.Point(163, 2);
             this.txtBoxSoLoaiTienCong.Margin = new System.Windows.Forms.Padding(2);
             this.txtBoxSoLoaiTienCong.Name = "txtBoxSoLoaiTienCong";
             this.txtBoxSoLoaiTienCong.Size = new System.Drawing.Size(192, 26);
@@ -522,7 +522,7 @@
             this.panel12.Location = new System.Drawing.Point(0, 240);
             this.panel12.Margin = new System.Windows.Forms.Padding(2);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(495, 45);
+            this.panel12.Size = new System.Drawing.Size(495, 31);
             this.panel12.TabIndex = 8;
             // 
             // btnCapNhatSoLoaiVatTu
@@ -533,7 +533,7 @@
             this.btnCapNhatSoLoaiVatTu.Location = new System.Drawing.Point(369, 2);
             this.btnCapNhatSoLoaiVatTu.Margin = new System.Windows.Forms.Padding(2);
             this.btnCapNhatSoLoaiVatTu.Name = "btnCapNhatSoLoaiVatTu";
-            this.btnCapNhatSoLoaiVatTu.Size = new System.Drawing.Size(124, 43);
+            this.btnCapNhatSoLoaiVatTu.Size = new System.Drawing.Size(124, 24);
             this.btnCapNhatSoLoaiVatTu.TabIndex = 12;
             this.btnCapNhatSoLoaiVatTu.Text = "Cập nhật";
             this.btnCapNhatSoLoaiVatTu.UseVisualStyleBackColor = true;
@@ -544,17 +544,16 @@
             this.lblSoLoaiVatTu.AutoSize = true;
             this.lblSoLoaiVatTu.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblSoLoaiVatTu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.lblSoLoaiVatTu.Location = new System.Drawing.Point(13, 10);
+            this.lblSoLoaiVatTu.Location = new System.Drawing.Point(13, 2);
             this.lblSoLoaiVatTu.Name = "lblSoLoaiVatTu";
             this.lblSoLoaiVatTu.Size = new System.Drawing.Size(93, 19);
             this.lblSoLoaiVatTu.TabIndex = 2;
             this.lblSoLoaiVatTu.Text = "Số loại vật tư:";
-            this.lblSoLoaiVatTu.Click += new System.EventHandler(this.lblSoLoaiVatTu_Click);
             // 
             // txtBoxSoLoaiVatTu
             // 
             this.txtBoxSoLoaiVatTu.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxSoLoaiVatTu.Location = new System.Drawing.Point(163, 10);
+            this.txtBoxSoLoaiVatTu.Location = new System.Drawing.Point(163, 2);
             this.txtBoxSoLoaiVatTu.Margin = new System.Windows.Forms.Padding(2);
             this.txtBoxSoLoaiVatTu.Name = "txtBoxSoLoaiVatTu";
             this.txtBoxSoLoaiVatTu.Size = new System.Drawing.Size(192, 26);
@@ -569,7 +568,7 @@
             this.panel13.Location = new System.Drawing.Point(0, 164);
             this.panel13.Margin = new System.Windows.Forms.Padding(2);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(495, 47);
+            this.panel13.Size = new System.Drawing.Size(495, 31);
             this.panel13.TabIndex = 7;
             // 
             // btnCapNhatSoXeSuaToiDa
@@ -577,10 +576,10 @@
             this.btnCapNhatSoXeSuaToiDa.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.btnCapNhatSoXeSuaToiDa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCapNhatSoXeSuaToiDa.ForeColor = System.Drawing.Color.White;
-            this.btnCapNhatSoXeSuaToiDa.Location = new System.Drawing.Point(369, 4);
+            this.btnCapNhatSoXeSuaToiDa.Location = new System.Drawing.Point(369, 2);
             this.btnCapNhatSoXeSuaToiDa.Margin = new System.Windows.Forms.Padding(2);
             this.btnCapNhatSoXeSuaToiDa.Name = "btnCapNhatSoXeSuaToiDa";
-            this.btnCapNhatSoXeSuaToiDa.Size = new System.Drawing.Size(124, 43);
+            this.btnCapNhatSoXeSuaToiDa.Size = new System.Drawing.Size(124, 24);
             this.btnCapNhatSoXeSuaToiDa.TabIndex = 12;
             this.btnCapNhatSoXeSuaToiDa.Text = "Cập nhật";
             this.btnCapNhatSoXeSuaToiDa.UseVisualStyleBackColor = true;
@@ -591,22 +590,20 @@
             this.lblSoXeSuaChuaToiDa.AutoSize = true;
             this.lblSoXeSuaChuaToiDa.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblSoXeSuaChuaToiDa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.lblSoXeSuaChuaToiDa.Location = new System.Drawing.Point(13, 12);
+            this.lblSoXeSuaChuaToiDa.Location = new System.Drawing.Point(13, 2);
             this.lblSoXeSuaChuaToiDa.Name = "lblSoXeSuaChuaToiDa";
             this.lblSoXeSuaChuaToiDa.Size = new System.Drawing.Size(145, 19);
             this.lblSoXeSuaChuaToiDa.TabIndex = 2;
             this.lblSoXeSuaChuaToiDa.Text = "Số xe sửa chữa tối đa:";
-            this.lblSoXeSuaChuaToiDa.Click += new System.EventHandler(this.lblSoXeSuaChuaToiDa_Click);
             // 
             // txtBoxSoXeSuaChuaToiDa
             // 
             this.txtBoxSoXeSuaChuaToiDa.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxSoXeSuaChuaToiDa.Location = new System.Drawing.Point(163, 12);
+            this.txtBoxSoXeSuaChuaToiDa.Location = new System.Drawing.Point(163, 2);
             this.txtBoxSoXeSuaChuaToiDa.Margin = new System.Windows.Forms.Padding(2);
             this.txtBoxSoXeSuaChuaToiDa.Name = "txtBoxSoXeSuaChuaToiDa";
             this.txtBoxSoXeSuaChuaToiDa.Size = new System.Drawing.Size(192, 26);
             this.txtBoxSoXeSuaChuaToiDa.TabIndex = 1;
-            this.txtBoxSoXeSuaChuaToiDa.TextChanged += new System.EventHandler(this.txtBoxSoXeSuaChuaToiDa_TextChanged);
             this.txtBoxSoXeSuaChuaToiDa.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtBoxSoXeSuaChuaToiDa_KeyPress);
             // 
             // panel14
@@ -617,18 +614,15 @@
             this.panel14.Location = new System.Drawing.Point(0, 93);
             this.panel14.Margin = new System.Windows.Forms.Padding(2);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(495, 46);
+            this.panel14.Size = new System.Drawing.Size(495, 30);
             this.panel14.TabIndex = 6;
             // 
             // btnCapNhatSoHieuXe
             // 
-            this.btnCapNhatSoHieuXe.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.btnCapNhatSoHieuXe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCapNhatSoHieuXe.ForeColor = System.Drawing.Color.White;
-            this.btnCapNhatSoHieuXe.Location = new System.Drawing.Point(369, 4);
+            this.btnCapNhatSoHieuXe.Location = new System.Drawing.Point(369, 2);
             this.btnCapNhatSoHieuXe.Margin = new System.Windows.Forms.Padding(2);
             this.btnCapNhatSoHieuXe.Name = "btnCapNhatSoHieuXe";
-            this.btnCapNhatSoHieuXe.Size = new System.Drawing.Size(124, 40);
+            this.btnCapNhatSoHieuXe.Size = new System.Drawing.Size(124, 24);
             this.btnCapNhatSoHieuXe.TabIndex = 3;
             this.btnCapNhatSoHieuXe.Text = "Cập nhật";
             this.btnCapNhatSoHieuXe.UseVisualStyleBackColor = false;
@@ -639,7 +633,7 @@
             this.lblSoHieuXe.AutoSize = true;
             this.lblSoHieuXe.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblSoHieuXe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.lblSoHieuXe.Location = new System.Drawing.Point(13, 11);
+            this.lblSoHieuXe.Location = new System.Drawing.Point(13, 2);
             this.lblSoHieuXe.Name = "lblSoHieuXe";
             this.lblSoHieuXe.Size = new System.Drawing.Size(75, 19);
             this.lblSoHieuXe.TabIndex = 2;
@@ -648,7 +642,7 @@
             // txtBoxSoHieuXe
             // 
             this.txtBoxSoHieuXe.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxSoHieuXe.Location = new System.Drawing.Point(163, 11);
+            this.txtBoxSoHieuXe.Location = new System.Drawing.Point(163, 2);
             this.txtBoxSoHieuXe.Margin = new System.Windows.Forms.Padding(2);
             this.txtBoxSoHieuXe.Name = "txtBoxSoHieuXe";
             this.txtBoxSoHieuXe.Size = new System.Drawing.Size(192, 26);

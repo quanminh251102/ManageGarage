@@ -232,7 +232,7 @@ namespace GUI
         {
            // if (BaoCaoTonDAO.Instance.KiemTraThoiDiem(dateTimePickerChonThoiDiemBaoCaoTon.Value))
             //{
-                lblThangBaoCaoTon.Text = "Tháng " + dateTimePickerChonThoiDiemBaoCaoTon.Value.ToString("MM/yyyy");
+         
                 dataGridViewBaoCaoTon.DataSource=BaoCaoTonBUS.Instance.TaoBaoCaoTon(dateTimePickerChonThoiDiemBaoCaoTon.Value);
             //}
         }
@@ -240,7 +240,6 @@ namespace GUI
         private void BtnBaoCaoTonMoi_Click(object sender, EventArgs e)
         {
             DatLaiDateTimePicker(dateTimePickerChonThoiDiemBaoCaoTon);
-            lblThangBaoCaoTon.Text = "Tháng";
             BaoCaoTonBUS.Instance.TaoBaoCaoMoi((DataTable)dataGridViewBaoCaoTon.DataSource);
             dateTimePickerChonThoiDiemBaoCaoTon.CustomFormat = "MM/yyyy";
             dateTimePickerChonThoiDiemBaoCaoTon.ShowUpDown = true;
@@ -705,21 +704,6 @@ namespace GUI
         }
 
         private void labelThangBaoCao_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtBoxSoXeSuaChuaToiDa_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblSoLoaiVatTu_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblSoXeSuaChuaToiDa_Click(object sender, EventArgs e)
         {
 
         }
