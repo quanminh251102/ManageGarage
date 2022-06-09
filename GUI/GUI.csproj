@@ -87,6 +87,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QuanLyGarageDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="RJButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>

@@ -649,5 +649,79 @@ namespace GUI
 
         #endregion
 
+        private void lblDienThoai_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxTongTienPhieuSuaChua_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxHoTenChuXePTT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelPhieuNhapVTPT_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblDiaChi_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblBienSo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBoxDienThoai_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblHieuXe_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnThemThongTinKHVaXe_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtBoxBienSo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBoxTenKH_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelThangBaoCao_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBoxSoXeSuaChuaToiDa_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblSoLoaiVatTu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblSoXeSuaChuaToiDa_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
