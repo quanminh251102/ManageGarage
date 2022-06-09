@@ -707,5 +707,40 @@ namespace GUI
         {
 
         }
+
+        private void txtBoxSoLoaiVatTu_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblSoLoaiVatTu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tPQuyDinh_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tPBaoCao_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxSoLuongVTPTPhieuSuaChua_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTongTien_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
