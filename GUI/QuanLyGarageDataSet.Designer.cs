@@ -516,7 +516,7 @@ namespace GUI {
         private void InitClass() {
             this.DataSetName = "QuanLyGarageDataSet";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/QuanLyGarageDataSet1.xsd";
+            this.Namespace = "http://tempuri.org/QuanLyGarageDataSet.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tableBAOCAOTON = new BAOCAOTONDataTable();

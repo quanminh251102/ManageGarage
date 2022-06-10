@@ -54,5 +54,15 @@ namespace GUI.Properties {
                 return ((string)(this["QuanLyGarageConnectionString1"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=HUYNHTUANANH;Initial Catalog=QuanLyGarage;Integrated Security=True")]
+        public string QuanLyGarageConnectionString2 {
+            get {
+                return ((string)(this["QuanLyGarageConnectionString2"]));
+            }
+        }
     }
 }

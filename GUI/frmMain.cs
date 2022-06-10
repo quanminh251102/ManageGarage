@@ -742,5 +742,15 @@ namespace GUI
         {
 
         }
+
+        private void tPChucNang_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelGiaVTPT_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

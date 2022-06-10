@@ -45,7 +45,7 @@ public class DotNetBarTabcontrol : TabControl
         Graphics G = Graphics.FromImage(B);
         try
         {
-            SelectedTab.BackColor = Color.White;
+            
         }
         catch
         {
