@@ -32,27 +32,27 @@
             this.pnlThayDoiMatKhau = new System.Windows.Forms.Panel();
             this.btnLuuThayDoi = new buttoncustom.RJButton();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.txtBoxXacNhanMatKhauMoi = new System.Windows.Forms.TextBox();
             this.lblXacNhanMatKhauMoi = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtBoxNhapMatKhauMoi = new System.Windows.Forms.TextBox();
             this.lblNhapMatKhauMoi = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.txtBoxNhapLaiMatKhauCu = new System.Windows.Forms.TextBox();
             this.lblNhapMatKhauCu = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.txtBoxTaiKhoan = new System.Windows.Forms.TextBox();
             this.lblTaiKhoan = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pnlThayDoiMatKhau.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -66,7 +66,7 @@
             // 
             // pnlThayDoiMatKhau
             // 
-            this.pnlThayDoiMatKhau.BackColor = System.Drawing.Color.Transparent;
+            this.pnlThayDoiMatKhau.BackColor = System.Drawing.SystemColors.Control;
             this.pnlThayDoiMatKhau.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnlThayDoiMatKhau.Controls.Add(this.btnLuuThayDoi);
             this.pnlThayDoiMatKhau.Controls.Add(this.panel4);
@@ -96,6 +96,7 @@
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.SystemColors.Control;
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.pictureBox2);
             this.panel4.Controls.Add(this.txtBoxXacNhanMatKhauMoi);
@@ -105,6 +106,16 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(492, 43);
             this.panel4.TabIndex = 7;
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.label4.Location = new System.Drawing.Point(2, 35);
+            this.label4.Margin = new System.Windows.Forms.Padding(0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(490, 2);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "label4";
             // 
             // pictureBox2
             // 
@@ -143,6 +154,7 @@
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.SystemColors.Control;
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.pictureBox1);
             this.panel3.Controls.Add(this.txtBoxNhapMatKhauMoi);
@@ -152,6 +164,16 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(492, 35);
             this.panel3.TabIndex = 6;
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.label3.Location = new System.Drawing.Point(2, 29);
+            this.label3.Margin = new System.Windows.Forms.Padding(0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(490, 2);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "label3";
             // 
             // pictureBox1
             // 
@@ -190,6 +212,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.SystemColors.Control;
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.txtBoxNhapLaiMatKhauCu);
@@ -199,6 +222,16 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(492, 34);
             this.panel2.TabIndex = 5;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.label2.Location = new System.Drawing.Point(2, 30);
+            this.label2.Margin = new System.Windows.Forms.Padding(0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(490, 2);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "label2";
             // 
             // pictureBox3
             // 
@@ -237,6 +270,7 @@
             // 
             // panel5
             // 
+            this.panel5.BackColor = System.Drawing.SystemColors.Control;
             this.panel5.Controls.Add(this.pictureBox4);
             this.panel5.Controls.Add(this.label6);
             this.panel5.Controls.Add(this.txtBoxTaiKhoan);
@@ -246,6 +280,25 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(494, 32);
             this.panel5.TabIndex = 4;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::GUI.Properties.Resources.user__1_;
+            this.pictureBox4.Location = new System.Drawing.Point(390, 1);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(27, 27);
+            this.pictureBox4.TabIndex = 11;
+            this.pictureBox4.TabStop = false;
+            // 
+            // label6
+            // 
+            this.label6.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.label6.Location = new System.Drawing.Point(-2, 28);
+            this.label6.Margin = new System.Windows.Forms.Padding(0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(490, 2);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "label6";
             // 
             // txtBoxTaiKhoan
             // 
@@ -299,55 +352,6 @@
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label6
-            // 
-            this.label6.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.label6.Location = new System.Drawing.Point(-2, 28);
-            this.label6.Margin = new System.Windows.Forms.Padding(0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(490, 2);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "label6";
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.label2.Location = new System.Drawing.Point(2, 30);
-            this.label2.Margin = new System.Windows.Forms.Padding(0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(490, 2);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "label2";
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.label3.Location = new System.Drawing.Point(2, 29);
-            this.label3.Margin = new System.Windows.Forms.Padding(0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(490, 2);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "label3";
-            // 
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.label4.Location = new System.Drawing.Point(2, 35);
-            this.label4.Margin = new System.Windows.Forms.Padding(0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(490, 2);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "label4";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::GUI.Properties.Resources.user__1_;
-            this.pictureBox4.Location = new System.Drawing.Point(390, 1);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(27, 27);
-            this.pictureBox4.TabIndex = 11;
-            this.pictureBox4.TabStop = false;
             // 
             // frmThayDoiMatKhau
             // 

@@ -12,7 +12,7 @@ namespace DAO
     {
         private static DataProvider instance;
         private DataProvider() { }
-        private string connectionSTR = @"Data Source=LAPTOP-5MCIHV27\SQLEXPRESS;Initial Catalog=QuanLyGarage;Integrated Security=True";
+        private string connectionSTR = @"Data Source=HUYNHTUANANH;Initial Catalog=QuanLyGarage;Integrated Security=True";
 
         public static DataProvider Instance
         {

@@ -6917,7 +6917,7 @@ SELECT MaBCT, ThoiDiemBaoCao FROM BAOCAOTON WHERE (MaBCT = @MaBCT)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7228,7 +7228,7 @@ SELECT MaBCT, ThoiDiemBaoCao FROM BAOCAOTON WHERE (MaBCT = @MaBCT)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7514,7 +7514,7 @@ SELECT MaBCT, MaPhuTung, TonDau, PhatSinh, TonCuoi FROM CT_BAOCAOTON WHERE (MaBC
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7901,7 +7901,7 @@ SELECT MaBCT, MaPhuTung, TonDau, PhatSinh, TonCuoi FROM CT_BAOCAOTON WHERE (MaBC
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8247,7 +8247,7 @@ SELECT MaKH, TenKH, DienThoai, DiaChi, TienNo FROM KHACHHANG WHERE (MaKH = @MaKH
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8670,7 +8670,7 @@ SELECT MaPhuTung, TenVatTuPhuTung, SoLuong, DonGia FROM KHO WHERE (MaPhuTung = @
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9065,7 +9065,7 @@ SELECT MaPNVTPT, MaPhuTung, SoLuong, ThoiDiem FROM PHIEUNHAPVTPT WHERE (MaPNVTPT
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9473,7 +9473,7 @@ SELECT MaPhieuSuaChua, BienSo, MaKH, TienCong, TienPhuTung, TongTien FROM PHIEUS
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9926,7 +9926,7 @@ SELECT MaPhieuThuTien, MaKH, TienThu, NgayThuTien FROM PHIEUTHUTIEN WHERE (MaPhi
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10327,7 +10327,7 @@ SELECT MaTK, TenChuTaiKhoan, TenDangNhap, MatKhau, QuyenHan FROM TAIKHOAN WHERE 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10746,7 +10746,7 @@ SELECT MaThamSo, TenThamSo, GiaTri FROM THAMSO WHERE (MaThamSo = @MaThamSo)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11129,7 +11129,7 @@ SELECT MaTC, TenTienCong, ChiPhi FROM TIENCONG WHERE (MaTC = @MaTC)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11503,7 +11503,7 @@ SELECT BienSo, MaHX, MaKH, NgayTiepNhan, TrangThai FROM XE WHERE (BienSo = @Bien
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
