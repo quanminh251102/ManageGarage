@@ -29,16 +29,6 @@ namespace BUS
         {
             return DAO.QuyDinhDAO.Instance.LayTatCaQuyDinh();
         }
-        public int LaySoHieuXe()
-        {
-            DataTable dt = QuyDinhDAO.Instance.LaySoHieuXe();
-            return int.Parse(dt.Rows[0][0].ToString());
-        }
-        public int CapNhatSoHieuXe(string GiaTriMoi)
-        {
-            int gtm = int.Parse(GiaTriMoi);
-            return DAO.QuyDinhDAO.Instance.CapNhatSoHieuXe(gtm);
-        }
         public int LaySoXeSuaToiDa()
         {
             DataTable dt = QuyDinhDAO.Instance.LaySoXeSuaToiDa();

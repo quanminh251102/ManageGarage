@@ -31,18 +31,6 @@ namespace DAO
             dt = DataProvider.Instance.ExecuteQuery(query);
             return dt;
         }
-        public int CapNhatSoHieuXe(int GiaTriMoi)
-        {
-            int result = 0;
-            string query = "UPDATE THAMSO SET GiaTri =" + GiaTriMoi + " WHERE MaThamSo = 'TS1'";
-            result = DataProvider.Instance.ExecuteNonQuery(query);
-            return result;
-        }
-        public DataTable LaySoHieuXe()
-        {
-            string query = "SELECT GiaTri FROM THAMSO WHERE MaThamSo = 'TS1'";
-            return DataProvider.Instance.ExecuteQuery(query);
-        }
         public int CapNhatSoXeSuaToiDa(int GiaTriMoi)
         {
             int result = 0;

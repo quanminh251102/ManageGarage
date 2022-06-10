@@ -329,7 +329,7 @@ namespace GUI
                     else
                     {
                         if (txtBoxBienSo.Text.Length == 0)
-                            MessageBox.Show("Vui lòng nhập biển số xe !");
+                            MessageBox.Show("Vui lòng nhập biển số xe !");                 
                     }
                 }
             }
@@ -362,7 +362,10 @@ namespace GUI
                 txtBoxDiaChi.Clear();
                 txtBoxBienSo.Clear();
             }
-        }
+        }       
+            
+            
+        
 
         private void buttonClear_Click(object sender, EventArgs e)
         {
@@ -459,15 +462,6 @@ namespace GUI
             }
         }
 
-        private void btnCapNhatSoHieuXe_Click(object sender, EventArgs e)
-        {
-            int test = BUS.QuyDinhBUS.Instance.CapNhatSoHieuXe(txtBoxSoHieuXe.Text);
-            if (test != 0)
-            {
-                MessageBox.Show("Thay đổi số hiệu xe thành công !");
-                txtBoxSoHieuXe.Clear();
-            }
-        }
 
         private void btnCapNhatSoXeSuaToiDa_Click(object sender, EventArgs e)
         {
@@ -475,7 +469,7 @@ namespace GUI
             if (test != 0)
             {
                 MessageBox.Show("Thay đổi số xe sửa tối đa thành công !");
-                txtBoxSoHieuXe.Clear();
+                txtBoxSoXeSuaChuaToiDa.Clear();
             }
         }
 
@@ -485,7 +479,7 @@ namespace GUI
             if (test != 0)
             {
                 MessageBox.Show("Thay đổi số loại vật tư thành công !");
-                txtBoxSoHieuXe.Clear();
+                txtBoxSoLoaiVatTu.Clear();
             }
         }
 
@@ -596,6 +590,11 @@ namespace GUI
             dataGridViewQuyDinhHienHanh.DataSource = BUS.QuyDinhBUS.Instance.LayTatCaQuyDinh();
             dataGridViewQuyDinhHienHanh.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewQuyDinhHienHanh.AutoResizeColumns();
+            frmMain f = new frmMain();
+            this.Hide();
+            this.Close();
+            f.ShowDialog();
+            this.Show();
         }
 
         private void TextBoxThangBaoCao_KeyPress(object sender, KeyPressEventArgs e)
@@ -607,14 +606,6 @@ namespace GUI
         }
 
         private void TextBoxNamBaoCao_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void TxtBoxSoHieuXe_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
@@ -756,6 +747,18 @@ namespace GUI
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
+            dataGridViewQuyDinhHienHanh.DataSource = BUS.QuyDinhBUS.Instance.LayTatCaQuyDinh();
+            dataGridViewQuyDinhHienHanh.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewQuyDinhHienHanh.AutoResizeColumns();
+        }
+
+        private void labelTienCongPhieuSuaChua_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
