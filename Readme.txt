@@ -1,7 +1,10 @@
-Hướng dẫn tạo Database cho ứng dụng:
-
-Mở đoạn script Garage bằng Microsoft SQL Server Management Studio.
-
-Thực hiện import đoạn script để  tạo Database theo phần mềm.
-
-Chú ý: KHO nhập với số lượng mỗi loại đều bằng 0, thực hiện thêm vật tư phụ tùng bằng chức năng Nhập VTPT của phần mềm.
+ĐỒ ÁN MÔN HỌC
+NHẬP MÔN CÔNG NGHỆ PHẦN MỀM
+Giảng viên hướng dẫn: Th.S Đỗ Thị Thanh Tuyền
+Lớp: SE104.M22
+Thành viên:
+1.	Lê Minh Quân – 20520708
+2.	Trần Quốc Thắng – 20521904
+3.	Phạm Đức Anh – 20521076
+4.	Huỳnh Tuấn Anh – 20520383
+5.	Nguyễn Nhật Hoàng – 20520516
