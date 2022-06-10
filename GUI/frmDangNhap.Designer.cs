@@ -37,7 +37,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -64,7 +63,7 @@
             this.textDangNhap.Location = new System.Drawing.Point(38, 13);
             this.textDangNhap.MaxLength = 30;
             this.textDangNhap.Name = "textDangNhap";
-            this.textDangNhap.Size = new System.Drawing.Size(350, 19);
+            this.textDangNhap.Size = new System.Drawing.Size(245, 19);
             this.textDangNhap.TabIndex = 2;
             this.textDangNhap.Text = "Name";
             this.textDangNhap.Click += new System.EventHandler(this.textDangNhap_Click);
@@ -79,7 +78,7 @@
             this.textMatKhau.Location = new System.Drawing.Point(38, 13);
             this.textMatKhau.MaxLength = 30;
             this.textMatKhau.Name = "textMatKhau";
-            this.textMatKhau.Size = new System.Drawing.Size(350, 19);
+            this.textMatKhau.Size = new System.Drawing.Size(245, 19);
             this.textMatKhau.TabIndex = 3;
             this.textMatKhau.Text = "Password";
             this.textMatKhau.UseSystemPasswordChar = true;
@@ -118,12 +117,11 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(300, 450);
+            this.panel1.Size = new System.Drawing.Size(296, 450);
             this.panel1.TabIndex = 6;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -165,16 +163,6 @@
             this.label2.Text = "CHƯƠNG TRÌNH";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "label1";
-            // 
             // button1
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -214,9 +202,9 @@
             this.panel2.Controls.Add(this.buttonThoat);
             this.panel2.Controls.Add(this.buttonDangNhap);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(300, 0);
+            this.panel2.Location = new System.Drawing.Point(296, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(450, 450);
+            this.panel2.Size = new System.Drawing.Size(454, 450);
             this.panel2.TabIndex = 12;
             // 
             // panel4
@@ -321,7 +309,6 @@
         private buttoncustom.RJButton buttonThoat;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
