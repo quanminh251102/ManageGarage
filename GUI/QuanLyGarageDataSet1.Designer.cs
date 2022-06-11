@@ -20,9 +20,9 @@ namespace GUI {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("QuanLyGarageDataSet")]
+    [global::System.Xml.Serialization.XmlRootAttribute("QuanLyGarageDataSet1")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class QuanLyGarageDataSet : global::System.Data.DataSet {
+    public partial class QuanLyGarageDataSet1 : global::System.Data.DataSet {
         
         private BAOCAOTONDataTable tableBAOCAOTON;
         
@@ -72,7 +72,7 @@ namespace GUI {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        public QuanLyGarageDataSet() {
+        public QuanLyGarageDataSet1() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -83,7 +83,7 @@ namespace GUI {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        protected QuanLyGarageDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected QuanLyGarageDataSet1(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -325,7 +325,7 @@ namespace GUI {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            QuanLyGarageDataSet cln = ((QuanLyGarageDataSet)(base.Clone()));
+            QuanLyGarageDataSet1 cln = ((QuanLyGarageDataSet1)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -514,7 +514,7 @@ namespace GUI {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "QuanLyGarageDataSet";
+            this.DataSetName = "QuanLyGarageDataSet1";
             this.Prefix = "";
             this.Namespace = "http://tempuri.org/QuanLyGarageDataSet1.xsd";
             this.EnforceConstraints = true;
@@ -672,7 +672,7 @@ namespace GUI {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            QuanLyGarageDataSet ds = new QuanLyGarageDataSet();
+            QuanLyGarageDataSet1 ds = new QuanLyGarageDataSet1();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -968,7 +968,7 @@ namespace GUI {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QuanLyGarageDataSet ds = new QuanLyGarageDataSet();
+                QuanLyGarageDataSet1 ds = new QuanLyGarageDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1266,7 +1266,7 @@ namespace GUI {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QuanLyGarageDataSet ds = new QuanLyGarageDataSet();
+                QuanLyGarageDataSet1 ds = new QuanLyGarageDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1585,7 +1585,7 @@ namespace GUI {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QuanLyGarageDataSet ds = new QuanLyGarageDataSet();
+                QuanLyGarageDataSet1 ds = new QuanLyGarageDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1858,7 +1858,7 @@ namespace GUI {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QuanLyGarageDataSet ds = new QuanLyGarageDataSet();
+                QuanLyGarageDataSet1 ds = new QuanLyGarageDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2175,7 +2175,7 @@ namespace GUI {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QuanLyGarageDataSet ds = new QuanLyGarageDataSet();
+                QuanLyGarageDataSet1 ds = new QuanLyGarageDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2476,7 +2476,7 @@ namespace GUI {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QuanLyGarageDataSet ds = new QuanLyGarageDataSet();
+                QuanLyGarageDataSet1 ds = new QuanLyGarageDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2776,7 +2776,7 @@ namespace GUI {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QuanLyGarageDataSet ds = new QuanLyGarageDataSet();
+                QuanLyGarageDataSet1 ds = new QuanLyGarageDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3111,7 +3111,7 @@ namespace GUI {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QuanLyGarageDataSet ds = new QuanLyGarageDataSet();
+                QuanLyGarageDataSet1 ds = new QuanLyGarageDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3414,7 +3414,7 @@ namespace GUI {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QuanLyGarageDataSet ds = new QuanLyGarageDataSet();
+                QuanLyGarageDataSet1 ds = new QuanLyGarageDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3732,7 +3732,7 @@ namespace GUI {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QuanLyGarageDataSet ds = new QuanLyGarageDataSet();
+                QuanLyGarageDataSet1 ds = new QuanLyGarageDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4020,7 +4020,7 @@ namespace GUI {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QuanLyGarageDataSet ds = new QuanLyGarageDataSet();
+                QuanLyGarageDataSet1 ds = new QuanLyGarageDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4307,7 +4307,7 @@ namespace GUI {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QuanLyGarageDataSet ds = new QuanLyGarageDataSet();
+                QuanLyGarageDataSet1 ds = new QuanLyGarageDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4628,7 +4628,7 @@ namespace GUI {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QuanLyGarageDataSet ds = new QuanLyGarageDataSet();
+                QuanLyGarageDataSet1 ds = new QuanLyGarageDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -6758,7 +6758,7 @@ namespace GUI {
         }
     }
 }
-namespace GUI.QuanLyGarageDataSetTableAdapters {
+namespace GUI.QuanLyGarageDataSet1TableAdapters {
     
     
     /// <summary>
@@ -6917,7 +6917,7 @@ SELECT MaBCT, ThoiDiemBaoCao FROM BAOCAOTON WHERE (MaBCT = @MaBCT)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6934,7 +6934,7 @@ SELECT MaBCT, ThoiDiemBaoCao FROM BAOCAOTON WHERE (MaBCT = @MaBCT)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QuanLyGarageDataSet.BAOCAOTONDataTable dataTable) {
+        public virtual int Fill(QuanLyGarageDataSet1.BAOCAOTONDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -6947,9 +6947,9 @@ SELECT MaBCT, ThoiDiemBaoCao FROM BAOCAOTON WHERE (MaBCT = @MaBCT)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QuanLyGarageDataSet.BAOCAOTONDataTable GetData() {
+        public virtual QuanLyGarageDataSet1.BAOCAOTONDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QuanLyGarageDataSet.BAOCAOTONDataTable dataTable = new QuanLyGarageDataSet.BAOCAOTONDataTable();
+            QuanLyGarageDataSet1.BAOCAOTONDataTable dataTable = new QuanLyGarageDataSet1.BAOCAOTONDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -6957,14 +6957,14 @@ SELECT MaBCT, ThoiDiemBaoCao FROM BAOCAOTON WHERE (MaBCT = @MaBCT)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet.BAOCAOTONDataTable dataTable) {
+        public virtual int Update(QuanLyGarageDataSet1.BAOCAOTONDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet dataSet) {
+        public virtual int Update(QuanLyGarageDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "BAOCAOTON");
         }
         
@@ -7228,7 +7228,7 @@ SELECT MaBCT, ThoiDiemBaoCao FROM BAOCAOTON WHERE (MaBCT = @MaBCT)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7246,7 +7246,7 @@ SELECT MaBCT, ThoiDiemBaoCao FROM BAOCAOTON WHERE (MaBCT = @MaBCT)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QuanLyGarageDataSet.CHITIETPHIEUSUACHUADataTable dataTable) {
+        public virtual int Fill(QuanLyGarageDataSet1.CHITIETPHIEUSUACHUADataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -7259,9 +7259,9 @@ SELECT MaBCT, ThoiDiemBaoCao FROM BAOCAOTON WHERE (MaBCT = @MaBCT)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QuanLyGarageDataSet.CHITIETPHIEUSUACHUADataTable GetData() {
+        public virtual QuanLyGarageDataSet1.CHITIETPHIEUSUACHUADataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QuanLyGarageDataSet.CHITIETPHIEUSUACHUADataTable dataTable = new QuanLyGarageDataSet.CHITIETPHIEUSUACHUADataTable();
+            QuanLyGarageDataSet1.CHITIETPHIEUSUACHUADataTable dataTable = new QuanLyGarageDataSet1.CHITIETPHIEUSUACHUADataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -7269,14 +7269,14 @@ SELECT MaBCT, ThoiDiemBaoCao FROM BAOCAOTON WHERE (MaBCT = @MaBCT)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet.CHITIETPHIEUSUACHUADataTable dataTable) {
+        public virtual int Update(QuanLyGarageDataSet1.CHITIETPHIEUSUACHUADataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet dataSet) {
+        public virtual int Update(QuanLyGarageDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "CHITIETPHIEUSUACHUA");
         }
         
@@ -7514,7 +7514,7 @@ SELECT MaBCT, MaPhuTung, TonDau, PhatSinh, TonCuoi FROM CT_BAOCAOTON WHERE (MaBC
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7531,7 +7531,7 @@ SELECT MaBCT, MaPhuTung, TonDau, PhatSinh, TonCuoi FROM CT_BAOCAOTON WHERE (MaBC
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QuanLyGarageDataSet.CT_BAOCAOTONDataTable dataTable) {
+        public virtual int Fill(QuanLyGarageDataSet1.CT_BAOCAOTONDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -7544,9 +7544,9 @@ SELECT MaBCT, MaPhuTung, TonDau, PhatSinh, TonCuoi FROM CT_BAOCAOTON WHERE (MaBC
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QuanLyGarageDataSet.CT_BAOCAOTONDataTable GetData() {
+        public virtual QuanLyGarageDataSet1.CT_BAOCAOTONDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QuanLyGarageDataSet.CT_BAOCAOTONDataTable dataTable = new QuanLyGarageDataSet.CT_BAOCAOTONDataTable();
+            QuanLyGarageDataSet1.CT_BAOCAOTONDataTable dataTable = new QuanLyGarageDataSet1.CT_BAOCAOTONDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -7554,14 +7554,14 @@ SELECT MaBCT, MaPhuTung, TonDau, PhatSinh, TonCuoi FROM CT_BAOCAOTON WHERE (MaBC
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet.CT_BAOCAOTONDataTable dataTable) {
+        public virtual int Update(QuanLyGarageDataSet1.CT_BAOCAOTONDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet dataSet) {
+        public virtual int Update(QuanLyGarageDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "CT_BAOCAOTON");
         }
         
@@ -7901,7 +7901,7 @@ SELECT MaBCT, MaPhuTung, TonDau, PhatSinh, TonCuoi FROM CT_BAOCAOTON WHERE (MaBC
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7918,7 +7918,7 @@ SELECT MaBCT, MaPhuTung, TonDau, PhatSinh, TonCuoi FROM CT_BAOCAOTON WHERE (MaBC
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QuanLyGarageDataSet.HIEUXEDataTable dataTable) {
+        public virtual int Fill(QuanLyGarageDataSet1.HIEUXEDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -7931,9 +7931,9 @@ SELECT MaBCT, MaPhuTung, TonDau, PhatSinh, TonCuoi FROM CT_BAOCAOTON WHERE (MaBC
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QuanLyGarageDataSet.HIEUXEDataTable GetData() {
+        public virtual QuanLyGarageDataSet1.HIEUXEDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QuanLyGarageDataSet.HIEUXEDataTable dataTable = new QuanLyGarageDataSet.HIEUXEDataTable();
+            QuanLyGarageDataSet1.HIEUXEDataTable dataTable = new QuanLyGarageDataSet1.HIEUXEDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -7941,14 +7941,14 @@ SELECT MaBCT, MaPhuTung, TonDau, PhatSinh, TonCuoi FROM CT_BAOCAOTON WHERE (MaBC
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet.HIEUXEDataTable dataTable) {
+        public virtual int Update(QuanLyGarageDataSet1.HIEUXEDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet dataSet) {
+        public virtual int Update(QuanLyGarageDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "HIEUXE");
         }
         
@@ -8247,7 +8247,7 @@ SELECT MaKH, TenKH, DienThoai, DiaChi, TienNo FROM KHACHHANG WHERE (MaKH = @MaKH
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8264,7 +8264,7 @@ SELECT MaKH, TenKH, DienThoai, DiaChi, TienNo FROM KHACHHANG WHERE (MaKH = @MaKH
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QuanLyGarageDataSet.KHACHHANGDataTable dataTable) {
+        public virtual int Fill(QuanLyGarageDataSet1.KHACHHANGDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -8277,9 +8277,9 @@ SELECT MaKH, TenKH, DienThoai, DiaChi, TienNo FROM KHACHHANG WHERE (MaKH = @MaKH
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QuanLyGarageDataSet.KHACHHANGDataTable GetData() {
+        public virtual QuanLyGarageDataSet1.KHACHHANGDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QuanLyGarageDataSet.KHACHHANGDataTable dataTable = new QuanLyGarageDataSet.KHACHHANGDataTable();
+            QuanLyGarageDataSet1.KHACHHANGDataTable dataTable = new QuanLyGarageDataSet1.KHACHHANGDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -8287,14 +8287,14 @@ SELECT MaKH, TenKH, DienThoai, DiaChi, TienNo FROM KHACHHANG WHERE (MaKH = @MaKH
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet.KHACHHANGDataTable dataTable) {
+        public virtual int Update(QuanLyGarageDataSet1.KHACHHANGDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet dataSet) {
+        public virtual int Update(QuanLyGarageDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "KHACHHANG");
         }
         
@@ -8670,7 +8670,7 @@ SELECT MaPhuTung, TenVatTuPhuTung, SoLuong, DonGia FROM KHO WHERE (MaPhuTung = @
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8687,7 +8687,7 @@ SELECT MaPhuTung, TenVatTuPhuTung, SoLuong, DonGia FROM KHO WHERE (MaPhuTung = @
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QuanLyGarageDataSet.KHODataTable dataTable) {
+        public virtual int Fill(QuanLyGarageDataSet1.KHODataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -8700,9 +8700,9 @@ SELECT MaPhuTung, TenVatTuPhuTung, SoLuong, DonGia FROM KHO WHERE (MaPhuTung = @
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QuanLyGarageDataSet.KHODataTable GetData() {
+        public virtual QuanLyGarageDataSet1.KHODataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QuanLyGarageDataSet.KHODataTable dataTable = new QuanLyGarageDataSet.KHODataTable();
+            QuanLyGarageDataSet1.KHODataTable dataTable = new QuanLyGarageDataSet1.KHODataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -8710,14 +8710,14 @@ SELECT MaPhuTung, TenVatTuPhuTung, SoLuong, DonGia FROM KHO WHERE (MaPhuTung = @
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet.KHODataTable dataTable) {
+        public virtual int Update(QuanLyGarageDataSet1.KHODataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet dataSet) {
+        public virtual int Update(QuanLyGarageDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "KHO");
         }
         
@@ -9065,7 +9065,7 @@ SELECT MaPNVTPT, MaPhuTung, SoLuong, ThoiDiem FROM PHIEUNHAPVTPT WHERE (MaPNVTPT
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9082,7 +9082,7 @@ SELECT MaPNVTPT, MaPhuTung, SoLuong, ThoiDiem FROM PHIEUNHAPVTPT WHERE (MaPNVTPT
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QuanLyGarageDataSet.PHIEUNHAPVTPTDataTable dataTable) {
+        public virtual int Fill(QuanLyGarageDataSet1.PHIEUNHAPVTPTDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -9095,9 +9095,9 @@ SELECT MaPNVTPT, MaPhuTung, SoLuong, ThoiDiem FROM PHIEUNHAPVTPT WHERE (MaPNVTPT
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QuanLyGarageDataSet.PHIEUNHAPVTPTDataTable GetData() {
+        public virtual QuanLyGarageDataSet1.PHIEUNHAPVTPTDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QuanLyGarageDataSet.PHIEUNHAPVTPTDataTable dataTable = new QuanLyGarageDataSet.PHIEUNHAPVTPTDataTable();
+            QuanLyGarageDataSet1.PHIEUNHAPVTPTDataTable dataTable = new QuanLyGarageDataSet1.PHIEUNHAPVTPTDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -9105,14 +9105,14 @@ SELECT MaPNVTPT, MaPhuTung, SoLuong, ThoiDiem FROM PHIEUNHAPVTPT WHERE (MaPNVTPT
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet.PHIEUNHAPVTPTDataTable dataTable) {
+        public virtual int Update(QuanLyGarageDataSet1.PHIEUNHAPVTPTDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet dataSet) {
+        public virtual int Update(QuanLyGarageDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "PHIEUNHAPVTPT");
         }
         
@@ -9473,7 +9473,7 @@ SELECT MaPhieuSuaChua, BienSo, MaKH, TienCong, TienPhuTung, TongTien FROM PHIEUS
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9491,7 +9491,7 @@ SELECT MaPhieuSuaChua, BienSo, MaKH, TienCong, TienPhuTung, TongTien FROM PHIEUS
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QuanLyGarageDataSet.PHIEUSUACHUADataTable dataTable) {
+        public virtual int Fill(QuanLyGarageDataSet1.PHIEUSUACHUADataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -9504,9 +9504,9 @@ SELECT MaPhieuSuaChua, BienSo, MaKH, TienCong, TienPhuTung, TongTien FROM PHIEUS
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QuanLyGarageDataSet.PHIEUSUACHUADataTable GetData() {
+        public virtual QuanLyGarageDataSet1.PHIEUSUACHUADataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QuanLyGarageDataSet.PHIEUSUACHUADataTable dataTable = new QuanLyGarageDataSet.PHIEUSUACHUADataTable();
+            QuanLyGarageDataSet1.PHIEUSUACHUADataTable dataTable = new QuanLyGarageDataSet1.PHIEUSUACHUADataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -9514,14 +9514,14 @@ SELECT MaPhieuSuaChua, BienSo, MaKH, TienCong, TienPhuTung, TongTien FROM PHIEUS
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet.PHIEUSUACHUADataTable dataTable) {
+        public virtual int Update(QuanLyGarageDataSet1.PHIEUSUACHUADataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet dataSet) {
+        public virtual int Update(QuanLyGarageDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "PHIEUSUACHUA");
         }
         
@@ -9926,7 +9926,7 @@ SELECT MaPhieuThuTien, MaKH, TienThu, NgayThuTien FROM PHIEUTHUTIEN WHERE (MaPhi
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9943,7 +9943,7 @@ SELECT MaPhieuThuTien, MaKH, TienThu, NgayThuTien FROM PHIEUTHUTIEN WHERE (MaPhi
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QuanLyGarageDataSet.PHIEUTHUTIENDataTable dataTable) {
+        public virtual int Fill(QuanLyGarageDataSet1.PHIEUTHUTIENDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -9956,9 +9956,9 @@ SELECT MaPhieuThuTien, MaKH, TienThu, NgayThuTien FROM PHIEUTHUTIEN WHERE (MaPhi
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QuanLyGarageDataSet.PHIEUTHUTIENDataTable GetData() {
+        public virtual QuanLyGarageDataSet1.PHIEUTHUTIENDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QuanLyGarageDataSet.PHIEUTHUTIENDataTable dataTable = new QuanLyGarageDataSet.PHIEUTHUTIENDataTable();
+            QuanLyGarageDataSet1.PHIEUTHUTIENDataTable dataTable = new QuanLyGarageDataSet1.PHIEUTHUTIENDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -9966,14 +9966,14 @@ SELECT MaPhieuThuTien, MaKH, TienThu, NgayThuTien FROM PHIEUTHUTIEN WHERE (MaPhi
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet.PHIEUTHUTIENDataTable dataTable) {
+        public virtual int Update(QuanLyGarageDataSet1.PHIEUTHUTIENDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet dataSet) {
+        public virtual int Update(QuanLyGarageDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "PHIEUTHUTIEN");
         }
         
@@ -10327,7 +10327,7 @@ SELECT MaTK, TenChuTaiKhoan, TenDangNhap, MatKhau, QuyenHan FROM TAIKHOAN WHERE 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10344,7 +10344,7 @@ SELECT MaTK, TenChuTaiKhoan, TenDangNhap, MatKhau, QuyenHan FROM TAIKHOAN WHERE 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QuanLyGarageDataSet.TAIKHOANDataTable dataTable) {
+        public virtual int Fill(QuanLyGarageDataSet1.TAIKHOANDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -10357,9 +10357,9 @@ SELECT MaTK, TenChuTaiKhoan, TenDangNhap, MatKhau, QuyenHan FROM TAIKHOAN WHERE 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QuanLyGarageDataSet.TAIKHOANDataTable GetData() {
+        public virtual QuanLyGarageDataSet1.TAIKHOANDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QuanLyGarageDataSet.TAIKHOANDataTable dataTable = new QuanLyGarageDataSet.TAIKHOANDataTable();
+            QuanLyGarageDataSet1.TAIKHOANDataTable dataTable = new QuanLyGarageDataSet1.TAIKHOANDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -10367,14 +10367,14 @@ SELECT MaTK, TenChuTaiKhoan, TenDangNhap, MatKhau, QuyenHan FROM TAIKHOAN WHERE 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet.TAIKHOANDataTable dataTable) {
+        public virtual int Update(QuanLyGarageDataSet1.TAIKHOANDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet dataSet) {
+        public virtual int Update(QuanLyGarageDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "TAIKHOAN");
         }
         
@@ -10746,7 +10746,7 @@ SELECT MaThamSo, TenThamSo, GiaTri FROM THAMSO WHERE (MaThamSo = @MaThamSo)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10763,7 +10763,7 @@ SELECT MaThamSo, TenThamSo, GiaTri FROM THAMSO WHERE (MaThamSo = @MaThamSo)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QuanLyGarageDataSet.THAMSODataTable dataTable) {
+        public virtual int Fill(QuanLyGarageDataSet1.THAMSODataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -10776,9 +10776,9 @@ SELECT MaThamSo, TenThamSo, GiaTri FROM THAMSO WHERE (MaThamSo = @MaThamSo)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QuanLyGarageDataSet.THAMSODataTable GetData() {
+        public virtual QuanLyGarageDataSet1.THAMSODataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QuanLyGarageDataSet.THAMSODataTable dataTable = new QuanLyGarageDataSet.THAMSODataTable();
+            QuanLyGarageDataSet1.THAMSODataTable dataTable = new QuanLyGarageDataSet1.THAMSODataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -10786,14 +10786,14 @@ SELECT MaThamSo, TenThamSo, GiaTri FROM THAMSO WHERE (MaThamSo = @MaThamSo)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet.THAMSODataTable dataTable) {
+        public virtual int Update(QuanLyGarageDataSet1.THAMSODataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet dataSet) {
+        public virtual int Update(QuanLyGarageDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "THAMSO");
         }
         
@@ -11129,7 +11129,7 @@ SELECT MaTC, TenTienCong, ChiPhi FROM TIENCONG WHERE (MaTC = @MaTC)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11146,7 +11146,7 @@ SELECT MaTC, TenTienCong, ChiPhi FROM TIENCONG WHERE (MaTC = @MaTC)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QuanLyGarageDataSet.TIENCONGDataTable dataTable) {
+        public virtual int Fill(QuanLyGarageDataSet1.TIENCONGDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -11159,9 +11159,9 @@ SELECT MaTC, TenTienCong, ChiPhi FROM TIENCONG WHERE (MaTC = @MaTC)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QuanLyGarageDataSet.TIENCONGDataTable GetData() {
+        public virtual QuanLyGarageDataSet1.TIENCONGDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QuanLyGarageDataSet.TIENCONGDataTable dataTable = new QuanLyGarageDataSet.TIENCONGDataTable();
+            QuanLyGarageDataSet1.TIENCONGDataTable dataTable = new QuanLyGarageDataSet1.TIENCONGDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -11169,14 +11169,14 @@ SELECT MaTC, TenTienCong, ChiPhi FROM TIENCONG WHERE (MaTC = @MaTC)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet.TIENCONGDataTable dataTable) {
+        public virtual int Update(QuanLyGarageDataSet1.TIENCONGDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet dataSet) {
+        public virtual int Update(QuanLyGarageDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "TIENCONG");
         }
         
@@ -11503,7 +11503,7 @@ SELECT BienSo, MaHX, MaKH, NgayTiepNhan, TrangThai FROM XE WHERE (BienSo = @Bien
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString2;
+            this._connection.ConnectionString = global::GUI.Properties.Settings.Default.QuanLyGarageConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11520,7 +11520,7 @@ SELECT BienSo, MaHX, MaKH, NgayTiepNhan, TrangThai FROM XE WHERE (BienSo = @Bien
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QuanLyGarageDataSet.XEDataTable dataTable) {
+        public virtual int Fill(QuanLyGarageDataSet1.XEDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -11533,9 +11533,9 @@ SELECT BienSo, MaHX, MaKH, NgayTiepNhan, TrangThai FROM XE WHERE (BienSo = @Bien
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QuanLyGarageDataSet.XEDataTable GetData() {
+        public virtual QuanLyGarageDataSet1.XEDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QuanLyGarageDataSet.XEDataTable dataTable = new QuanLyGarageDataSet.XEDataTable();
+            QuanLyGarageDataSet1.XEDataTable dataTable = new QuanLyGarageDataSet1.XEDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -11543,14 +11543,14 @@ SELECT BienSo, MaHX, MaKH, NgayTiepNhan, TrangThai FROM XE WHERE (BienSo = @Bien
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet.XEDataTable dataTable) {
+        public virtual int Update(QuanLyGarageDataSet1.XEDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QuanLyGarageDataSet dataSet) {
+        public virtual int Update(QuanLyGarageDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "XE");
         }
         
@@ -12144,7 +12144,7 @@ SELECT BienSo, MaHX, MaKH, NgayTiepNhan, TrangThai FROM XE WHERE (BienSo = @Bien
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        private int UpdateUpdatedRows(QuanLyGarageDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(QuanLyGarageDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._hIEUXETableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.HIEUXE.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -12271,7 +12271,7 @@ SELECT BienSo, MaHX, MaKH, NgayTiepNhan, TrangThai FROM XE WHERE (BienSo = @Bien
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        private int UpdateInsertedRows(QuanLyGarageDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(QuanLyGarageDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._hIEUXETableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.HIEUXE.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -12385,7 +12385,7 @@ SELECT BienSo, MaHX, MaKH, NgayTiepNhan, TrangThai FROM XE WHERE (BienSo = @Bien
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        private int UpdateDeletedRows(QuanLyGarageDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(QuanLyGarageDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._tHAMSOTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.THAMSO.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -12523,7 +12523,7 @@ SELECT BienSo, MaHX, MaKH, NgayTiepNhan, TrangThai FROM XE WHERE (BienSo = @Bien
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        public virtual int UpdateAll(QuanLyGarageDataSet dataSet) {
+        public virtual int UpdateAll(QuanLyGarageDataSet1 dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }
